@@ -13,7 +13,7 @@ import net.minecraft.world.level.Level;
 
 public class NetheriteApple extends Item {
 	public NetheriteApple() {
-		super(new Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.RARE)
+		super(new Properties().tab(CreativeModeTab.TAB_FOOD).fireResistant().stacksTo(64).rarity(Rarity.RARE)
 				.food((new FoodProperties.Builder()).nutrition(5).saturationMod(0.7f)
 
 						.build()));

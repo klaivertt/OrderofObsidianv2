@@ -12,7 +12,7 @@ import net.minecraft.world.level.Level;
 
 public class Oxysapple extends Item {
 	public Oxysapple() {
-		super(new Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.EPIC)
+		super(new Properties().tab(CreativeModeTab.TAB_FOOD).fireResistant().stacksTo(64).rarity(Rarity.EPIC)
 				.food((new FoodProperties.Builder()).nutrition(8).saturationMod(2f)
 
 						.build()));

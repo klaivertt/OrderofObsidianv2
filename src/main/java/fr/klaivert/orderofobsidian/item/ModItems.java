@@ -145,6 +145,8 @@ public class ModItems {
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
     public static final RegistryObject<Item> AIKIGITE_BOW = ITEMS.register("aikigite_bow",
             () -> new BowItem(new Item.Properties().tab(ModCreativeModeTab.WEAPON_TAB).durability(600)));
+    public static final RegistryObject<Item> AIKIGITE_HAMMER = ITEMS.register("aikigite_hammer",
+            () -> new Aikigitehammer());
 
     //end Aikigite
     //avenronite
@@ -173,6 +175,8 @@ public class ModItems {
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
     public static final RegistryObject<Item> AVENRONITE_BOW = ITEMS.register("avenronite_bow",
             () -> new BowItem(new Item.Properties().tab(ModCreativeModeTab.WEAPON_TAB).durability(800)));
+    public static final RegistryObject<Item> AVENRONITE_HAMMER = ITEMS.register("avenronite_hammer",
+            () -> new Avenronitehammer());
     //end avenronite
     //bauherite
     public static final RegistryObject<Item> BAUHERITE_HELMET = ITEMS.register("bauherite_helmet",
@@ -197,6 +201,8 @@ public class ModItems {
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
     public static final RegistryObject<Item> BAUHERITE_BOW = ITEMS.register("bauherite_bow",
             () -> new BowItem(new Item.Properties().tab(ModCreativeModeTab.WEAPON_TAB).durability(650)));
+    public static final RegistryObject<Item> BAUHERITE_HAMMER = ITEMS.register("bauherite_hammer",
+            () -> new Bauheritehammer());
     //end bauherite
     //bone
     public static final RegistryObject<Item> BONE_HELMET = ITEMS.register("bone_helmet",
@@ -224,6 +230,10 @@ public class ModItems {
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
 
     //end bone
+    //candy apple
+    public static final RegistryObject<Item> CANDY_APPLE = ITEMS.register("candy_apple",
+            () -> new CandyApple());
+    //end candy apple
     //citrine
     public static final RegistryObject<Item> CITRINE_SWORD = ITEMS.register("citrine_sword",
             () -> new LevitationSwordItem(ModTiers.CITRINE, 2, 3f,
@@ -259,10 +269,7 @@ public class ModItems {
     public static final RegistryObject<Item> CITRINE_BOW = ITEMS.register("citrine_bow",
             () -> new BowItem(new Item.Properties().tab(ModCreativeModeTab.WEAPON_TAB).durability(550)));
     //end citrine
-    //candy apple
-    public static final RegistryObject<Item> CANDY_APPLE = ITEMS.register("candy_apple",
-            () -> new CandyApple());
-    //end candy apple
+
     //diamond
     public static final RegistryObject<Item> DIAMOND_APPLE = ITEMS.register("diamond_apple",
             () -> new DiamondApple());
@@ -291,6 +298,8 @@ public class ModItems {
     public static final RegistryObject<Item> EDRUELIUM_HOE = ITEMS.register("edruelium_hoe",
             () -> new HoeItem(ModTiers.EDRUELIUM, 0, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
+    public static final RegistryObject<Item> EDRUELIUM_HAMMER = ITEMS.register("edruelium_hammer",
+            () -> new Edrueliumhammer());
     public static final RegistryObject<Item> EDRUELIUM_BOW = ITEMS.register("edruelium_bow",
             () -> new BowItem(new Item.Properties().tab(ModCreativeModeTab.WEAPON_TAB).durability(800)));
     //end edruelium
@@ -371,6 +380,8 @@ public class ModItems {
     public static final RegistryObject<Item> OBSIDIAN_HOE = ITEMS.register("obsidian_hoe",
             () -> new HoeItem(ModTiers.OBSIDIAN, 0, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
+    public static final RegistryObject<Item> OBSIDIAN_HAMMER = ITEMS.register("obsidian_hammer",
+            () -> new Obsidianhammer());
     //end Obsidian
     //oxys
     public static final RegistryObject<Item> OXYS = ITEMS.register("oxys",
@@ -397,6 +408,8 @@ public class ModItems {
     public static final RegistryObject<Item> OXYS_HOE = ITEMS.register("oxys_hoe",
             () -> new HoeItem(ModTiers.OXYS, 0, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
+    public static final RegistryObject<Item> OXYS_HAMMER = ITEMS.register("oxys_hammer",
+            () -> new OxysHammer());
 
     public static final RegistryObject<Item> OXYS_HELMET = ITEMS.register("oxys_helmet",
             () -> new  OxysArmor.Helmet());

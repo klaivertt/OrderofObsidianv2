@@ -39,7 +39,7 @@ public class Avenronitehammer extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(ModItems.AVENRONITE_INGOT.get()));
 			}
-		}, 1, -3f, new Properties().tab(ModCreativeModeTab.TOOLS_TAB));
+		}, 1, -3f, new Properties().tab(ModCreativeModeTab.TOOLS_TAB).fireResistant());
 	}
 
 	@Override

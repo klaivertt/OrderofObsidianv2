@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "orderofobsidian:item/oxys_hammer"
+    "layer0": "orderofobsidian:item/aikigitehammer"
   }
 }

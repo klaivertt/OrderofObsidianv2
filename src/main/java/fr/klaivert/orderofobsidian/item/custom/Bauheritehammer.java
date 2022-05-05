@@ -37,7 +37,7 @@ public class Bauheritehammer extends PickaxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(ModCreativeModeTab.TOOLS_TAB.get()));
+				return Ingredient.of(new ItemStack(ModItems.BAUHERITE_INGOT.get()));
 			}
 		}, 1, -3f, new Properties().tab(ModCreativeModeTab.TOOLS_TAB));
 	}
