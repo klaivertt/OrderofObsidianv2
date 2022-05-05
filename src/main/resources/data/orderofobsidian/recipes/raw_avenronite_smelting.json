@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1.2,
+  "cookingtime": 300,
+  "ingredient": {
+    "item": "orderofobsidian:raw_avenronite"
+  },
+  "result": "orderofobsidian:avenronite_ingot"
+}

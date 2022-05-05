@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "orderofobsidian:cut_graphite"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:cut_graphite_slab",
+    "count": 6
+  }
+}

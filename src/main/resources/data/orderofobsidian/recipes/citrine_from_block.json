@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "orderofobsidian:citrine_block"
+    }
+  ],
+  "result": {
+    "item": "orderofobsidian:citrine",
+    "count": 9
+  }
+}

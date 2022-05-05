@@ -1,0 +1,6 @@
+{
+  "parent": "orderofobsidian:item/citrine_bow",
+  "textures": {
+    "layer0": "orderofobsidian:item/citrine_bow_pulling_0"
+  }
+}

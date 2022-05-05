@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 4.5,
+  "cookingtime": 750,
+  "ingredient": {
+    "item": "orderofobsidian:raw_aluminium_block"
+  },
+  "result": "orderofobsidian:aluminium_block"
+}

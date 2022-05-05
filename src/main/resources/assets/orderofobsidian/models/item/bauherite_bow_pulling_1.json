@@ -1,0 +1,6 @@
+{
+  "parent": "orderofobsidian:item/bauherite_bow",
+  "textures": {
+    "layer0": "orderofobsidian:item/bauherite_bow_pulling_1"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "orderofobsidian:block/moss_bricks",
+    "up": "orderofobsidian:block/moss_bricks",
+    "north": "orderofobsidian:block/moss_bricks",
+    "east": "orderofobsidian:block/moss_bricks",
+    "south": "orderofobsidian:block/moss_bricks",
+    "west": "orderofobsidian:block/moss_bricks",
+    "particle": "orderofobsidian:block/moss_bricks"
+  }
+}

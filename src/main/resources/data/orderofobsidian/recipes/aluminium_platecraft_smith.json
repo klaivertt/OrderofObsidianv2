@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "orderofobsidian:aluminium_ingot"
+  },
+  "addition": {
+    "item": "orderofobsidian:aluminium_ingot"
+  },
+  "result": {
+    "item": "orderofobsidian:aluminium_plate"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "orderofobsidian:oxys"
+    },
+    "2": {
+      "item": "orderofobsidian:oxys"
+    },
+    "3": {
+      "item": "orderofobsidian:oxys"
+    },
+    "5": {
+      "item": "orderofobsidian:oxys"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:oxys_boots",
+    "count": 1
+  }
+}

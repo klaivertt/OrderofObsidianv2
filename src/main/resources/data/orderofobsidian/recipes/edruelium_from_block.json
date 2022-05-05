@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "orderofobsidian:edruelium_block"
+    }
+  ],
+  "result": {
+    "item": "orderofobsidian:edruelium_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "orderofobsidian:mithril_ingot"
+    },
+    "1": {
+      "item": "orderofobsidian:mithril_ingot"
+    },
+    "2": {
+      "item": "orderofobsidian:mithril_ingot"
+    },
+    "3": {
+      "item": "orderofobsidian:mithril_ingot"
+    },
+    "5": {
+      "item": "orderofobsidian:mithril_ingot"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:mithril_helmet",
+    "count": 1
+  }
+}

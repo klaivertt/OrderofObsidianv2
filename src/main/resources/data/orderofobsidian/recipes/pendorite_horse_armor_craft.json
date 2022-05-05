@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "orderofobsidian:pendorite_ingot"
+    },
+    "3": {
+      "item": "orderofobsidian:pendorite_ingot"
+    },
+    "4": {
+      "item": "minecraft:saddle"
+    },
+    "5": {
+      "item": "orderofobsidian:pendorite_ingot"
+    },
+    "6": {
+      "item": "orderofobsidian:pendorite_ingot"
+    },
+    "7": {
+      "item": "orderofobsidian:pendorite_ingot"
+    },
+    "8": {
+      "item": "orderofobsidian:pendorite_ingot"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:pendorite_horse_armor",
+    "count": 1
+  }
+}

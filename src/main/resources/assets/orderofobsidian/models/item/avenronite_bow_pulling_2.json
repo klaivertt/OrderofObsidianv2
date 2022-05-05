@@ -1,0 +1,6 @@
+{
+  "parent": "orderofobsidian:item/avenronite_bow",
+  "textures": {
+    "layer0": "orderofobsidian:item/avenronite_bow_pulling_2"
+  }
+}

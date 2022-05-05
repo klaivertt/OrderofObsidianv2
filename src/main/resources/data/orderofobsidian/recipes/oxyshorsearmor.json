@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "orderofobsidian:oxys"
+    },
+    "3": {
+      "item": "orderofobsidian:oxys"
+    },
+    "4": {
+      "item": "minecraft:saddle"
+    },
+    "5": {
+      "item": "orderofobsidian:oxys"
+    },
+    "6": {
+      "item": "orderofobsidian:oxys"
+    },
+    "7": {
+      "item": "orderofobsidian:oxys"
+    },
+    "8": {
+      "item": "orderofobsidian:oxys"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:oxys_horse_armor",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "orderofobsidian:block/cut_graphite",
+    "particle": "orderofobsidian:block/cut_graphite"
+  }
+}

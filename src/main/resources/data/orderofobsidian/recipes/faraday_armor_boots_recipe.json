@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "orderofobsidian:aluminium_plate"
+    },
+    "2": {
+      "item": "orderofobsidian:aluminium_plate"
+    },
+    "3": {
+      "item": "orderofobsidian:aluminium_plate"
+    },
+    "5": {
+      "item": "orderofobsidian:aluminium_plate"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:faraday_armor_boots",
+    "count": 1
+  }
+}

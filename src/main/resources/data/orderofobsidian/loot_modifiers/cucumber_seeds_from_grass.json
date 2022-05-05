@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "block_state_property",
+      "block": "minecraft:grass"
+    }
+  ],
+  "addition": "orderofobsidian:cucumber_seeds",
+  "type": "orderofobsidian:cucumber_seeds_from_grass"
+}

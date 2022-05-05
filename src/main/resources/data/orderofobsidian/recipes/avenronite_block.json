@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:ingot/avenronite_ingot"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:avenronite_block"
+  }
+}

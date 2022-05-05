@@ -1,0 +1,56 @@
+{
+  "parent": "orderofobsidian:end/dubious_ore",
+  "display": {
+    "icon": {
+      "item": "orderofobsidian:oxys_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.orderofobsidian.end.oxys_armor.title"
+    },
+    "description": {
+      "translate": "advancements.orderofobsidian.end.oxys_armor.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 250
+  },
+  "criteria": {
+    "oxys_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "orderofobsidian:oxys_helmet"
+            ]
+          },
+          {
+            "items": [
+              "orderofobsidian:oxys_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "orderofobsidian:oxys_leggings"
+            ]
+          },
+          {
+            "items": [
+              "orderofobsidian:oxys_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "oxys_armor"
+    ]
+  ]
+}

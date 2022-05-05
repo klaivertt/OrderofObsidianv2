@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:ingot/edruelium_ingot"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:edruelium_block"
+  }
+}

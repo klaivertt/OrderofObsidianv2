@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "orderofobsidian:mitril_block"
+    }
+  ],
+  "result": {
+    "item": "orderofobsidian:mitril_ingot",
+    "count": 9
+  }
+}

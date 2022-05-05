@@ -1,0 +1,6 @@
+{
+  "parent": "orderofobsidian:item/edruelium_bow",
+  "textures": {
+    "layer0": "orderofobsidian:item/edruelium_bow_pulling_0"
+  }
+}

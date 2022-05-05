@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "orderofobsidian:oxys"
+    },
+    "1": {
+      "item": "orderofobsidian:oxys"
+    },
+    "2": {
+      "item": "orderofobsidian:oxys"
+    },
+    "3": {
+      "item": "orderofobsidian:oxys"
+    },
+    "5": {
+      "item": "orderofobsidian:oxys"
+    },
+    "6": {
+      "item": "orderofobsidian:oxys"
+    },
+    "8": {
+      "item": "orderofobsidian:oxys"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:oxys_leggings",
+    "count": 1
+  }
+}

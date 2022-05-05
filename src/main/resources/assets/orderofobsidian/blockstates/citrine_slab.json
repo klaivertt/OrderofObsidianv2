@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "orderofobsidian:block/citrine_slab"
+    },
+    "type=double": {
+      "model": "orderofobsidian:block/citrine_block"
+    },
+    "type=top": {
+      "model": "orderofobsidian:block/citrine_slab_top"
+    }
+  }
+}

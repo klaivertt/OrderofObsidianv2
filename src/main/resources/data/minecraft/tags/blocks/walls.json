@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "walls.json:moss_bricks_wall",
+    "walls.json:moss_bricks",
+    "walls.json:moss_bricks_slab",
+    "walls.json:moss_bricks_stairs",
+    "walls.json:moss_block_wall",
+    "minecraft:moss_block",
+    "walls.json:moss_block_slab",
+    "walls.json:moss_block_stairs"
+  ]
+}

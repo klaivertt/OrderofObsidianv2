@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:netherrack"
+    },
+    "1": {
+      "item": "minecraft:netherrack"
+    },
+    "2": {
+      "item": "minecraft:netherrack"
+    },
+    "3": {
+      "item": "minecraft:netherrack"
+    },
+    "5": {
+      "item": "minecraft:netherrack"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:netherrack_helmet",
+    "count": 1
+  }
+}

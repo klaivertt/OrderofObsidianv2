@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "orderofobsidian:steel_ingot"
+    },
+    "1": {
+      "item": "orderofobsidian:steel_ingot"
+    },
+    "2": {
+      "item": "orderofobsidian:steel_ingot"
+    },
+    "3": {
+      "item": "orderofobsidian:steel_ingot"
+    },
+    "5": {
+      "item": "orderofobsidian:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:steel_helmet",
+    "count": 1
+  }
+}

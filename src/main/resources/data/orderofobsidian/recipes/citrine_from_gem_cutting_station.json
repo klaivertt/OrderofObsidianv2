@@ -1,0 +1,11 @@
+{
+  "type": "orderofobsidian:gem_cutting",
+  "ingredients": [
+    {
+      "item": "orderofobsidian:raw_citrine"
+    }
+  ],
+  "output": {
+    "item": "orderofobsidian:citrine"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top",
+  "textures": {
+    "top": "orderofobsidian:block/ebony_door_top",
+    "bottom": "orderofobsidian:block/ebony_door_bottom"
+  }
+}

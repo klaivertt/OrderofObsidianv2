@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "orderofobsidian:block/stripped_ebony_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "orderofobsidian:block/stripped_ebony_wood"
+    },
+    "axis=z": {
+      "model": "orderofobsidian:block/stripped_ebony_wood",
+      "x": 90
+    }
+  }
+}

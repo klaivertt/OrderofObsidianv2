@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "orderofobsidian:block/moss_bricks",
+    "top": "orderofobsidian:block/moss_bricks",
+    "side": "orderofobsidian:block/moss_bricks"
+  }
+}

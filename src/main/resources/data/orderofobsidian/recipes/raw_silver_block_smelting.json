@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 9,
+  "cookingtime": 1800,
+  "ingredient": {
+    "item": "orderofobsidian:raw_silver_block"
+  },
+  "result": "orderofobsidian:silver_block"
+}

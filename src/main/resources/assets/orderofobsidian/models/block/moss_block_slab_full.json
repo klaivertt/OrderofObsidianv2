@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "orderofobsidian:block/moss_block",
+    "top": "orderofobsidian:block/moss_block",
+    "side": "orderofobsidian:block/moss_block"
+  }
+}

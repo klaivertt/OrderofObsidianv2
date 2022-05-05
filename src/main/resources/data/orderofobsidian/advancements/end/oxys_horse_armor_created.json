@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "orderofobsidian:oxys_horse_armor"
+    },
+    "title": {
+      "translate": "advancements.oxys_horse_armor_created.title"
+    },
+    "description": {
+      "translate": "advancements.oxys_horse_armor_created.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "netherite_horse_armor_created": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "orderofobsidian:oxys_horse_armor",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 15
+  },
+  "parent": "orderofobsidian:end/dubious_ore"
+}

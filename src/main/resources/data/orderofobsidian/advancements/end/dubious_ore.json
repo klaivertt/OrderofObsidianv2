@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "orderofobsidian:oxys"
+    },
+    "title": {
+      "translate": "advancements.dubious_ore.title"
+    },
+    "description": {
+      "translate": "advancements.dubious_ore.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dubious_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "orderofobsidian:oxys"
+            ],
+            "count": {
+              "min": 1,
+              "max": 10
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "minecraft:end/root"
+}

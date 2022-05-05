@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 8.1,
+  "cookingtime": 1800,
+  "ingredient": {
+    "item": "orderofobsidian:raw_mitril_block"
+  },
+  "result": "orderofobsidian:mitril_block"
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "orderofobsidian:block/moss_bricks_slab"
+    },
+    "type=top": {
+      "model": "orderofobsidian:block/moss_bricks_slab_top"
+    },
+    "type=double": {
+      "model": "orderofobsidian:block/moss_bricks_slab_full"
+    }
+  }
+}

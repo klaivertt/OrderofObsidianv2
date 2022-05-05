@@ -1,0 +1,6 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "orderofobsidian:block/citrine_block"
+  }
+}
