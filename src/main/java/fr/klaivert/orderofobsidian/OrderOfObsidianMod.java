@@ -3,6 +3,7 @@ package fr.klaivert.orderofobsidian;
 import fr.klaivert.orderofobsidian.block.ModBlocks;
 import fr.klaivert.orderofobsidian.block.entity.ModBlockEntities;
 import fr.klaivert.orderofobsidian.effect.ModEffects;
+import fr.klaivert.orderofobsidian.enchantment.ModEnchantments;
 import fr.klaivert.orderofobsidian.item.ModItems;
 import fr.klaivert.orderofobsidian.painting.ModPaintings;
 import fr.klaivert.orderofobsidian.potion.ModPotions;
@@ -56,7 +57,7 @@ public class OrderOfObsidianMod {
         ModMenuTypes.register(eventBus);
 
         ModRecipes.register(eventBus);
-
+        ModEnchantments.register(eventBus);
 
         eventBus.addListener(this::setup);
         eventBus.addListener(this::clientSetup);
@@ -74,6 +75,7 @@ public class OrderOfObsidianMod {
 
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.WINTER_WINDOW.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.CUCUMBER_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.RICE_PLANT.get(), RenderType.cutout());
 
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.EBONY_LEAVES.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.EBONY_SAPLING.get(), RenderType.cutout());

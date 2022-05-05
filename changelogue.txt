@@ -30,3 +30,4 @@ Optimisation et amélioration de la génération des minerais
 ajout de nouvelle variante d'arc
 ajout de variente pour le block de graphite
 re texturing des objet et armure en oxys
+ajout d'enchantement (curse of back fire, lightning striker,auto smelt)

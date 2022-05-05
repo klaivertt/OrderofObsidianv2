@@ -35,7 +35,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, OrderOfObsidianMod.MOD_ID);
 
     public static final RegistryObject<Block> EBONY_SAPLING = registerBlock("ebony_sapling",
-            () -> new SaplingBlock(new EbonyTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)), ModCreativeModeTab.BLOCK_TAB);
+            () -> new SaplingBlock(new EbonyTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)), CreativeModeTab.TAB_DECORATIONS);
 
 
     public static final RegistryObject<Block> GEM_CUTTING_STATION = registerBlock("gem_cutting_station",
@@ -126,7 +126,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> OXYS_ORE = registerBlock("oxys_ore",
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(3.5f).requiresCorrectToolForDrops(), UniformInt.of(15, 25)), ModCreativeModeTab.BLOCK_TAB);
-
+//raw block
     public static final RegistryObject<Block> RAW_AIKIGITE_BLOCK = registerBlock("raw_aikigite_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(1f).requiresCorrectToolForDrops()), ModCreativeModeTab.BLOCK_TAB);
@@ -162,7 +162,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> RAW_SILVER_BLOCK = registerBlock("raw_silver_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(1f).requiresCorrectToolForDrops()), ModCreativeModeTab.BLOCK_TAB);
-
+//metal block
     public static final RegistryObject<Block> AIKIGITE_BLOCK = registerBlock("aikigite_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(1f).requiresCorrectToolForDrops()), ModCreativeModeTab.BLOCK_TAB);
@@ -202,9 +202,14 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(1f).requiresCorrectToolForDrops()), ModCreativeModeTab.BLOCK_TAB);
 
+    public static final RegistryObject<Block> STEEL_BLOCK = registerBlock("steel_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(1f).requiresCorrectToolForDrops()), ModCreativeModeTab.BLOCK_TAB);
+
+
     public static final RegistryObject<Block> CITRINE_BLOCK = registerBlock("citrine_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.BLOCK_TAB);
+                    .strength(1f).requiresCorrectToolForDrops()), ModCreativeModeTab.BLOCK_TAB);
 
     public static final RegistryObject<Block> RAW_CITRINE_BLOCK = registerBlock("raw_citrine_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
@@ -268,6 +273,10 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> CUCUMBER_PLANT = registerBlockWithoutBlockItem("cucumber_plant",
             () -> new CucumberPlantBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
+
+    public static final RegistryObject<Block> RICE_PLANT = registerBlockWithoutBlockItem("rice_plant",
+            () -> new RicePlantBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
+
 
     public static final RegistryObject<Block> EBONY_LOG = registerBlock("ebony_log",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)),

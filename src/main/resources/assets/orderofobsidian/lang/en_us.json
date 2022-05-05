@@ -40,6 +40,8 @@
   "item.orderofobsidian.oxys_shovel": "Oxys Shovel",
   "item.orderofobsidian.oxys_hoe": "Oxys Hoe",
   "item.orderofobsidian.oxys_sword": "Oxys Sword",
+  "item.orderofobsidian.oxys_hammer": "Oxys Hammer",
+  "item.orderofobsidian.oxys_stick": "Oxys Stick",
 
   "item.orderofobsidian.netherite_horse_armor": "Netherite Horse Armor",
   "item.orderofobsidian.moss_horse_armor": "Moss Horse Armor",
@@ -49,6 +51,7 @@
 
   "item.orderofobsidian.aluminium_ingot": "Aluminium Ingot",
   "item.orderofobsidian.raw_aluminium": "Raw Aluminium",
+  "item.orderofobsidian.aluminium_plate": "Aluminium Plate",
 
   "item.orderofobsidian.avenronite_ingot": "Avenronite Ingot",
   "item.orderofobsidian.raw_avenronite": "Raw Avenronite",
@@ -89,6 +92,7 @@
   "item.orderofobsidian.aikigite_shovel": "Aikigite Shovel",
   "item.orderofobsidian.aikigite_sword": "Aikigite Sword",
   "item.orderofobsidian.aikigite_bow": "Aikigite Bow",
+  "item.orderofobsidian.aikigite_hammer": "Aikigite hammer",
 
   "item.orderofobsidian.avenronite_helmet": "Avenronite Helmet",
   "item.orderofobsidian.avenronite_chestplate": "Avenronite Chestplate",
@@ -101,6 +105,7 @@
   "item.orderofobsidian.avenronite_hoe": "Avenronite Hoe",
   "item.orderofobsidian.avenronite_sword": "Avenronite Sword",
   "item.orderofobsidian.avenronite_bow": "Avenronite Bow",
+  "item.orderofobsidian.avenronite_hammer": "Avenronite Hammmer",
 
   "item.orderofobsidian.bauherite_helmet": "Bauherite Helmet",
   "item.orderofobsidian.bauherite_chestplate": "Bauherite Chestplate",
@@ -112,6 +117,7 @@
   "item.orderofobsidian.bauherite_shovel": "Bauherite Shovel",
   "item.orderofobsidian.bauherite_sword": "Bauherite Sword",
   "item.orderofobsidian.bauherite_bow": "Bauherite Bow",
+  "item.orderofobsidian.bauherite_hammer": "Bauherite Hammer",
 
   "item.orderofobsidian.bone_helmet": "Bone Helmet",
   "item.orderofobsidian.bone_chestplate": "Bone Chestplate",
@@ -135,6 +141,7 @@
   "item.orderofobsidian.edruelium_hoe": "Edruelium Hoe",
   "item.orderofobsidian.edruelium_sword": "Edruelium Sword",
   "item.orderofobsidian.edruelium_bow": "Edruelium Bow",
+  "item.orderofobsidian.edruelium_hammer": "Edruelium Hammer",
 
   "item.orderofobsidian.mithril_helmet": "Mithril Helmet",
   "item.orderofobsidian.mithril_chestplate": "Mithril Chestplate",
@@ -162,6 +169,7 @@
   "item.orderofobsidian.obsidian_shovel": "Obsidian Shovel",
   "item.orderofobsidian.obsidian_hoe": "Obsidian Hoe",
   "item.orderofobsidian.obsidian_sword": "Obsidian Sword",
+  "item.orderofobsidian.obsidian_stick": "Obsidian Stick",
 
   "item.orderofobsidian.pendorite_pickaxe": "Pendorite Pickaxe",
   "item.orderofobsidian.pendorite_axe": "Pendorite Axe",
@@ -191,7 +199,20 @@
   "item.orderofobsidian.wooden_leggings": "Wooden Leggings",
   "item.orderofobsidian.wooden_boots": "Wooden Boots",
 
+  "item.orderofobsidian.oxys_apple": "Oxys Apple",
+  "item.orderofobsidian.pendorite_apple": "Pendorite Apple",
+  "item.orderofobsidian.diamond_apple": "Diamond Apple",
+  "item.orderofobsidian.netherite_apple": "Netherite Apple",
+  "item.orderofobsidian.candy_apple": "Candy Apple",
 
+  "item.orderofobsidian.chips": "Chips",
+  "item.orderofobsidian.fried_egg": "Fried egg",
+
+  "item.orderofobsidian.rice": "Rice",
+  "item.orderofobsidian.rice_seeds": "Rice Seeds",
+  "item.orderofobsidian.cooked_rice": "Cooked Rice",
+
+  "item.orderofobsidian.sushi": "Sushi",
 
   "block.orderofobsidian.aikigite_ore": "Aikigite Ore",
   "block.orderofobsidian.aluminium_ore": "Aluminium Ore",
@@ -231,6 +252,7 @@
   "block.orderofobsidian.oxys_block": "Oxys Block",
   "block.orderofobsidian.pendorite_block": "Pendorite Block",
   "block.orderofobsidian.silver_block": "Silver Block",
+  "block.orderofobsidian.steel_block": "Steel Block",
 
   "block.orderofobsidian.moss_bricks": "Moss Bricks",
   "block.orderofobsidian.moss_bricks_slab": "Moss Bricks Slab",
@@ -274,6 +296,12 @@
   "block.orderofobsidian.stripped_ebony_wood": "Stripped Ebony Wood",
   "block.orderofobsidian.ebony_leaves": "Ebony Leaves",
   "block.orderofobsidian.ebony_sapling": "Ebony Sapling",
+
+  "block.orderofobsidian.cut_graphite": "Cut Graphite",
+  "block.orderofobsidian.cut_graphite_stairs": "Cut Graphite Stairs",
+  "block.orderofobsidian.cut_graphite_slab": "Cut Graphite Slab",
+  "block.orderofobsidian.cut_graphite_wall": "Cut Graphite Wall",
+  "block.orderofobsidian.graphite_block": "Citrine Block",
 
   "block.orderofobsidian.gem_cutting_station": "Gem Cutting Station",
 

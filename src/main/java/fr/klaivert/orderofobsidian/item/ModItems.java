@@ -121,7 +121,7 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> GEM_CUTTER_TOOL = ITEMS.register("gem_cutter_tool",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BLOCK_TAB).durability(32)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB).durability(32)));
     //Aikigite
     public static final RegistryObject<Item> AIKIGITE_HELMET = ITEMS.register("aikigite_helmet",
             () -> new AikigiteArmor.Helmet());
@@ -269,7 +269,11 @@ public class ModItems {
     public static final RegistryObject<Item> CITRINE_BOW = ITEMS.register("citrine_bow",
             () -> new BowItem(new Item.Properties().tab(ModCreativeModeTab.WEAPON_TAB).durability(550)));
     //end citrine
+    //chips
 
+    public static final RegistryObject<Item> CHIPS = ITEMS.register("chips",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).food(ModFoods.CHIPS)));
+    //end chips
     //diamond
     public static final RegistryObject<Item> DIAMOND_APPLE = ITEMS.register("diamond_apple",
             () -> new DiamondApple());
@@ -313,6 +317,10 @@ public class ModItems {
     public static final RegistryObject<Item> FARAFAY_BOOTS = ITEMS.register("faraday_boots",
             () -> new FaradayArmor.Boots());
     //end farraday
+    //fried Egg
+    public static final RegistryObject<Item> FRIED_EGG = ITEMS.register("fried_egg",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).food(ModFoods.FRIED_EGG)));
+    //end Fried Egg
     //mithril
     public static final RegistryObject<Item> MITHRIL_HELMET = ITEMS.register("mithril_helmet",
             () -> new MithrilArmor.Helmet());
@@ -447,6 +455,19 @@ public class ModItems {
             () -> new PendoriteApple());
 
     //end pendorite
+    //rice
+    public static final RegistryObject<Item> RICE_SEEDS = ITEMS.register("rice_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.RICE_PLANT.get(),
+                    new Item.Properties().tab(ModCreativeModeTab.ITEM_TAB)));
+
+    public static final RegistryObject<Item> RICE = ITEMS.register("rice",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
+
+
+    public static final RegistryObject<Item> COOKED_RICE = ITEMS.register("cooked_rice",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).food(ModFoods.COOKED_RICE)));
+
+    //end rice
     //steel
     public static final RegistryObject<Item> STEEL_HELMET = ITEMS.register("steel_helmet",
             () -> new SteelArmor.Helmet());
@@ -472,6 +493,10 @@ public class ModItems {
             () -> new HoeItem(ModTiers.STEEL, 0, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
     //end steel
+    //sushi
+    public static final RegistryObject<Item> SUSHI = ITEMS.register("sushi",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).food(ModFoods.SUSHI)));
+    //end sushi
     //Stone
     public static final RegistryObject<Item> STONE_HELMET = ITEMS.register("stone_helmet",
             () -> new StoneArmor.Helmet());
