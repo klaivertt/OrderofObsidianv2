@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "orderofobsidian:oxys"
+    },
+    "1": {
+      "item": "orderofobsidian:oxys"
+    },
+    "2": {
+      "item": "orderofobsidian:oxys"
+    },
+    "3": {
+      "item": "orderofobsidian:oxys"
+    },
+    "4": {
+      "item": "orderofobsidian:oxys_stick"
+    },
+    "5": {
+      "item": "orderofobsidian:oxys"
+    },
+    "7": {
+      "item": "orderofobsidian:oxys_stick"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:oxys_hammer",
+    "count": 1
+  }
+}
