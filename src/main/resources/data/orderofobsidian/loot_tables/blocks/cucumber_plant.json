@@ -23,7 +23,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:cucumber_seeds"
+              "name": "orderofobsidian:cucumber_seeds"
             }
           ]
         }
@@ -52,7 +52,7 @@
       "conditions": [
         {
           "condition": "minecraft:block_state_property",
-          "block": "orderofobsidian:cucumber_plant",
+          "block": "tutorialmod:cucumber_plant",
           "properties": {
             "age": "5"
           }

@@ -169,7 +169,7 @@
   "item.orderofobsidian.obsidian_shovel": "Obsidian Shovel",
   "item.orderofobsidian.obsidian_hoe": "Obsidian Hoe",
   "item.orderofobsidian.obsidian_sword": "Obsidian Sword",
-  "item.orderofobsidian.obsidian_stick": "Obsidian Stick",
+  "item.orderofobsidian.obsidian_hammer": "Obsidian Hammer",
 
   "item.orderofobsidian.pendorite_pickaxe": "Pendorite Pickaxe",
   "item.orderofobsidian.pendorite_axe": "Pendorite Axe",
@@ -301,7 +301,7 @@
   "block.orderofobsidian.cut_graphite_stairs": "Cut Graphite Stairs",
   "block.orderofobsidian.cut_graphite_slab": "Cut Graphite Slab",
   "block.orderofobsidian.cut_graphite_wall": "Cut Graphite Wall",
-  "block.orderofobsidian.graphite_block": "Citrine Block",
+  "block.orderofobsidian.graphite_block": "Graphite Block",
 
   "block.orderofobsidian.gem_cutting_station": "Gem Cutting Station",
 
@@ -319,6 +319,10 @@
 
   "advancements.orderofobsidian.end.oxys_armor.title": "Cover Me in Dubious Ore",
   "advancements.orderofobsidian.end.oxys_armor.description": "Get a full suit of Oxys armor",
+
+  "enchantment.orderofobsidian.auto_smelt": "Auto Smelt",
+  "enchantment.orderofobsidian.curse_of_backfire": "Curse Of Backfire",
+  "enchantment.orderofobsidian.lightning_striker": "Lightning Striker",
 
   "itemGroup.tabitems": "Items",
   "itemGroup.tabtools": "Tools",

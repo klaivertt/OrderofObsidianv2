@@ -135,13 +135,13 @@ public class ModItems {
             () -> new SwordItem(ModTiers.AIKIGITE, 5, 1.7f,
                     new Item.Properties().tab(ModCreativeModeTab.WEAPON_TAB)));
     public static final RegistryObject<Item> AIKIGITE_PICKAXE = ITEMS.register("aikigite_pickaxe",
-            () -> new PickaxeItem(ModTiers.AIKIGITE, 0, 1f,
+            () -> new PickaxeItem(ModTiers.AIKIGITE, 0, 0.1f,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
     public static final RegistryObject<Item> AIKIGITE_SHOVEL = ITEMS.register("aikigite_shovel",
-            () -> new ShovelItem(ModTiers.AIKIGITE, 0, 1f,
+            () -> new ShovelItem(ModTiers.AIKIGITE, 0, 0.1f,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
     public static final RegistryObject<Item> AIKIGITE_AXE = ITEMS.register("aikigite_axe",
-            () -> new AxeItem(ModTiers.AIKIGITE, 15, 1f,
+            () -> new AxeItem(ModTiers.AIKIGITE, 6, 0.1f,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
     public static final RegistryObject<Item> AIKIGITE_BOW = ITEMS.register("aikigite_bow",
             () -> new BowItem(new Item.Properties().tab(ModCreativeModeTab.WEAPON_TAB).durability(600)));
@@ -159,7 +159,7 @@ public class ModItems {
     public static final RegistryObject<Item> AVENRONITE_BOOTS = ITEMS.register("avenronite_boots",
             () -> new AvenroniteArmor.Boots());
     public static final RegistryObject<Item> AVENRONITE_SWORD = ITEMS.register("avenronite_sword",
-            () -> new SwordItem(ModTiers.AVENRONITE, 5, 1.7f,
+            () -> new SwordItem(ModTiers.AVENRONITE, 8, 1.7f,
                     new Item.Properties().tab(ModCreativeModeTab.WEAPON_TAB)));
     public static final RegistryObject<Item> AVENRONITE_PICKAXE = ITEMS.register("avenronite_pickaxe",
             () -> new PickaxeItem(ModTiers.AVENRONITE, 0, 1f,
@@ -168,7 +168,7 @@ public class ModItems {
             () -> new ShovelItem(ModTiers.AVENRONITE, 0, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
     public static final RegistryObject<Item> AVENRONITE_AXE = ITEMS.register("avenronite_axe",
-            () -> new AxeItem(ModTiers.AVENRONITE, 15, 1f,
+            () -> new AxeItem(ModTiers.AVENRONITE, 9, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
     public static final RegistryObject<Item> AVENRONITE_HOE = ITEMS.register("avenronite_hoe",
             () -> new HoeItem(ModTiers.AVENRONITE, 0, 1f,
@@ -188,7 +188,7 @@ public class ModItems {
     public static final RegistryObject<Item> BAUHERITE_BOOTS = ITEMS.register("bauherite_boots", ()
             -> new BauheriteArmor.Boots());
     public static final RegistryObject<Item> BAUHERITE_SWORD = ITEMS.register("bauherite_sword",
-            () -> new SwordItem(ModTiers.BAUHERITE, 5, 1.7f,
+            () -> new SwordItem(ModTiers.BAUHERITE, 6, 1.7f,
                     new Item.Properties().tab(ModCreativeModeTab.WEAPON_TAB)));
     public static final RegistryObject<Item> BAUHERITE_PICKAXE = ITEMS.register("bauherite_pickaxe",
             () -> new PickaxeItem(ModTiers.BAUHERITE, 0, 1f,
@@ -197,7 +197,7 @@ public class ModItems {
             () -> new ShovelItem(ModTiers.BAUHERITE, 0, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
     public static final RegistryObject<Item> BAUHERITE_AXE = ITEMS.register("bauherite_axe",
-            () -> new AxeItem(ModTiers.BAUHERITE, 15, 1f,
+            () -> new AxeItem(ModTiers.BAUHERITE, 7, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
     public static final RegistryObject<Item> BAUHERITE_BOW = ITEMS.register("bauherite_bow",
             () -> new BowItem(new Item.Properties().tab(ModCreativeModeTab.WEAPON_TAB).durability(650)));
@@ -214,7 +214,7 @@ public class ModItems {
     public static final RegistryObject<Item> BONE_BOOTS = ITEMS.register("bone_boots",
             () -> new BoneArmor.Boots());
     public static final RegistryObject<Item> BONE_SWORD = ITEMS.register("bone_sword",
-            () -> new SwordItem(ModTiers.BONE, 5, 1.7f,
+            () -> new SwordItem(ModTiers.BONE, 3, 1.7f,
                     new Item.Properties().tab(ModCreativeModeTab.WEAPON_TAB)));
     public static final RegistryObject<Item> BONE_PICKAXE = ITEMS.register("bone_pickaxe",
             () -> new PickaxeItem(ModTiers.BONE, 0, 1f,
@@ -223,7 +223,7 @@ public class ModItems {
             () -> new ShovelItem(ModTiers.BONE, 0, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
     public static final RegistryObject<Item> BONE_AXE = ITEMS.register("bone_axe",
-            () -> new AxeItem(ModTiers.BONE, 15, 1f,
+            () -> new AxeItem(ModTiers.BONE, 4, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
     public static final RegistryObject<Item> BONE_HOE = ITEMS.register("bone_hoe",
             () -> new HoeItem(ModTiers.BONE, 0, 1f,
@@ -236,7 +236,7 @@ public class ModItems {
     //end candy apple
     //citrine
     public static final RegistryObject<Item> CITRINE_SWORD = ITEMS.register("citrine_sword",
-            () -> new LevitationSwordItem(ModTiers.CITRINE, 2, 3f,
+            () -> new LevitationSwordItem(ModTiers.CITRINE, 3, 3f,
                     new Item.Properties().tab(ModCreativeModeTab.WEAPON_TAB)));
     public static final RegistryObject<Item> CITRINE_PICKAXE = ITEMS.register("citrine_pickaxe",
             () -> new PickaxeItem(ModTiers.CITRINE, 1, 1f,
@@ -288,7 +288,7 @@ public class ModItems {
     public static final RegistryObject<Item> EDRUELIUM_BOOTS = ITEMS.register("edruelium_boots",
             () -> new Edrueliumarmor.Boots());
     public static final RegistryObject<Item> EDRUELIUM_SWORD = ITEMS.register("edruelium_sword",
-            () -> new SwordItem(ModTiers.EDRUELIUM, 5, 1.7f,
+            () -> new SwordItem(ModTiers.EDRUELIUM, 8, 1.7f,
                     new Item.Properties().tab(ModCreativeModeTab.WEAPON_TAB)));
     public static final RegistryObject<Item> EDRUELIUM_PICKAXE = ITEMS.register("edruelium_pickaxe",
             () -> new PickaxeItem(ModTiers.EDRUELIUM, 0, 1f,
@@ -297,7 +297,7 @@ public class ModItems {
             () -> new ShovelItem(ModTiers.EDRUELIUM, 0, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
     public static final RegistryObject<Item> EDRUELIUM_AXE = ITEMS.register("edruelium_axe",
-            () -> new AxeItem(ModTiers.EDRUELIUM, 15, 1f,
+            () -> new AxeItem(ModTiers.EDRUELIUM, 9, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
     public static final RegistryObject<Item> EDRUELIUM_HOE = ITEMS.register("edruelium_hoe",
             () -> new HoeItem(ModTiers.EDRUELIUM, 0, 1f,
@@ -332,7 +332,7 @@ public class ModItems {
             () -> new MithrilArmor.Boots());
 
     public static final RegistryObject<Item> MITHRIL_SWORD = ITEMS.register("mithril_sword",
-            () -> new SwordItem(ModTiers.MITHRIL, 5, 1.7f,
+            () -> new SwordItem(ModTiers.MITHRIL, 7, 1.7f,
                     new Item.Properties().tab(ModCreativeModeTab.WEAPON_TAB)));
     public static final RegistryObject<Item> MITHRIL_PICKAXE = ITEMS.register("mithril_pickaxe",
             () -> new PickaxeItem(ModTiers.MITHRIL, 0, 1f,
@@ -341,7 +341,7 @@ public class ModItems {
             () -> new ShovelItem(ModTiers.MITHRIL, 0, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
     public static final RegistryObject<Item> MITHRIL_AXE = ITEMS.register("mithril_axe",
-            () -> new AxeItem(ModTiers.MITHRIL, 15, 1f,
+            () -> new AxeItem(ModTiers.MITHRIL, 8, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
     public static final RegistryObject<Item> MITHRIL_HOE = ITEMS.register("mithril_hoe",
             () -> new HoeItem(ModTiers.MITHRIL, 0, 1f,
@@ -374,7 +374,7 @@ public class ModItems {
     public static final RegistryObject<Item> OBSIDIAN_BOOTS = ITEMS.register("obsidian_boots",
             () -> new ObsidianArmor.Boots());
     public static final RegistryObject<Item> OBSIDIAN_SWORD = ITEMS.register("obsidian_sword",
-            () -> new SwordItem(ModTiers.OBSIDIAN, 5, 1.7f,
+            () -> new SwordItem(ModTiers.OBSIDIAN, 7, 1.7f,
                     new Item.Properties().tab(ModCreativeModeTab.WEAPON_TAB)));
     public static final RegistryObject<Item> OBSIDIAN_PICKAXE = ITEMS.register("obsidian_pickaxe",
             () -> new PickaxeItem(ModTiers.OBSIDIAN, 0, 1f,
@@ -383,7 +383,7 @@ public class ModItems {
             () -> new ShovelItem(ModTiers.OBSIDIAN, 0, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
     public static final RegistryObject<Item> OBSIDIAN_AXE = ITEMS.register("obsidian_axe",
-            () -> new AxeItem(ModTiers.OBSIDIAN, 15, 1f,
+            () -> new AxeItem(ModTiers.OBSIDIAN, 8, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
     public static final RegistryObject<Item> OBSIDIAN_HOE = ITEMS.register("obsidian_hoe",
             () -> new HoeItem(ModTiers.OBSIDIAN, 0, 1f,
@@ -435,7 +435,7 @@ public class ModItems {
     //pendorite
 
     public static final RegistryObject<Item> PENDORITE_SWORD = ITEMS.register("pendorite_sword",
-            () -> new LevitationSwordItem(ModTiers.PENDORITE, 2, 3f,
+            () -> new LevitationSwordItem(ModTiers.PENDORITE, 7, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.WEAPON_TAB)));
     public static final RegistryObject<Item> PENDORITE_PICKAXE = ITEMS.register("pendorite_pickaxe",
             () -> new PickaxeItem(ModTiers.PENDORITE, 1, 1f,
@@ -444,7 +444,7 @@ public class ModItems {
             () -> new ShovelItem(ModTiers.PENDORITE, 0, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
     public static final RegistryObject<Item>PENDORITE_AXE = ITEMS.register("pendorite_axe",
-            () -> new AxeItem(ModTiers.PENDORITE, 4, 0f,
+            () -> new AxeItem(ModTiers.PENDORITE, 8, 0f,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
     public static final RegistryObject<Item> PENDORITE_HOE = ITEMS.register("pendorite_hoe",
             () -> new HoeItem(ModTiers.PENDORITE, 0, 0f,
@@ -478,7 +478,7 @@ public class ModItems {
     public static final RegistryObject<Item> STEEL_BOOTS = ITEMS.register("steel_boots",
             () -> new SteelArmor.Boots());
     public static final RegistryObject<Item> STEEL_SWORD = ITEMS.register("steel_sword",
-            () -> new SwordItem(ModTiers.STEEL, 5, 1.7f,
+            () -> new SwordItem(ModTiers.STEEL, 6, 1.7f,
                     new Item.Properties().tab(ModCreativeModeTab.WEAPON_TAB)));
     public static final RegistryObject<Item> STEEL_PICKAXE = ITEMS.register("steel_pickaxe",
             () -> new PickaxeItem(ModTiers.STEEL, 0, 1f,
@@ -487,7 +487,7 @@ public class ModItems {
             () -> new ShovelItem(ModTiers.STEEL, 0, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
     public static final RegistryObject<Item> STEEL_AXE = ITEMS.register("steel_axe",
-            () -> new AxeItem(ModTiers.STEEL, 15, 1f,
+            () -> new AxeItem(ModTiers.STEEL, 7, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
     public static final RegistryObject<Item> STEEL_HOE = ITEMS.register("steel_hoe",
             () -> new HoeItem(ModTiers.STEEL, 0, 1f,

@@ -41,7 +41,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> GEM_CUTTING_STATION = registerBlock("gem_cutting_station",
             () -> new GemCuttingStationBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()),
             ModCreativeModeTab.BLOCK_TAB);
-//overworld ore
+
     public static final RegistryObject<Block> AIKIGITE_ORE = registerBlock("aikigite_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(0.7f).requiresCorrectToolForDrops()), ModCreativeModeTab.BLOCK_TAB);
@@ -98,7 +98,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.2f).requiresCorrectToolForDrops()), ModCreativeModeTab.BLOCK_TAB);
 
-//nether ore
+
     public static final RegistryObject<Block> NETHERRACK_CITRINE_ORE = registerBlock("netherrack_citrine_ore",
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.2f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTab.BLOCK_TAB);
@@ -114,7 +114,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> PENDORITE_ORE = registerBlock("pendorite_ore",
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).requiresCorrectToolForDrops(), UniformInt.of(7, 14)), ModCreativeModeTab.BLOCK_TAB);
-//end Ore
+
     public static final RegistryObject<Block> ENDSTONE_CITRINE_ORE = registerBlock("endstone_citrine_ore",
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).requiresCorrectToolForDrops(), UniformInt.of(7, 13)), ModCreativeModeTab.BLOCK_TAB);
@@ -126,7 +126,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> OXYS_ORE = registerBlock("oxys_ore",
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(3.5f).requiresCorrectToolForDrops(), UniformInt.of(15, 25)), ModCreativeModeTab.BLOCK_TAB);
-//raw block
+
     public static final RegistryObject<Block> RAW_AIKIGITE_BLOCK = registerBlock("raw_aikigite_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(1f).requiresCorrectToolForDrops()), ModCreativeModeTab.BLOCK_TAB);
@@ -162,7 +162,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> RAW_SILVER_BLOCK = registerBlock("raw_silver_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(1f).requiresCorrectToolForDrops()), ModCreativeModeTab.BLOCK_TAB);
-//metal block
+
     public static final RegistryObject<Block> AIKIGITE_BLOCK = registerBlock("aikigite_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(1f).requiresCorrectToolForDrops()), ModCreativeModeTab.BLOCK_TAB);
