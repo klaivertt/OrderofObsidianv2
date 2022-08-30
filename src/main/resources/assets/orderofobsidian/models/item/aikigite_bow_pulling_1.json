@@ -1,6 +1,0 @@
-{
-  "parent": "orderofobsidian:item/aikigite_bow",
-  "textures": {
-    "layer0": "orderofobsidian:item/aikigite_bow_pulling_1"
-  }
-}

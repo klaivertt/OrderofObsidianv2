@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "orderofobsidian:block/cut_graphite",
-    "top": "orderofobsidian:block/cut_graphite",
-    "side": "orderofobsidian:block/cut_graphite"
-  }
-}

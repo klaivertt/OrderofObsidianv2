@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "experience": 0.7,
-  "cookingtime": 200,
-  "ingredient": {
-    "item": "orderofobsidian:raw_aikigite"
-  },
-  "result": "orderofobsidian:aikigite_ingot"
-}

@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "orderofobsidian:item/tool_axe_steel"
-  }
-}

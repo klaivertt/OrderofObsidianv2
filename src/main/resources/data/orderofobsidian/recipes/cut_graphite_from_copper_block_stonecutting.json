@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "orderofobsidian:graphite_block"
-  },
-  "result": "orderofobsidian:cut_graphite",
-  "count": 4
-}

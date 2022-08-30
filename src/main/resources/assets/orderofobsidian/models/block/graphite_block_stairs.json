@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "orderofobsidian:block/graphite_block",
-    "top": "orderofobsidian:block/graphite_block",
-    "side": "orderofobsidian:block/graphite_block"
-  }
-}

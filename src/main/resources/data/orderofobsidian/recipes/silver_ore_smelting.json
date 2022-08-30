@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "experience": 1,
-  "cookingtime": 200,
-  "ingredient": {
-    "item": "orderofobsidian:silver_ore"
-  },
-  "result": "orderofobsidian:silver_ingot"
-}

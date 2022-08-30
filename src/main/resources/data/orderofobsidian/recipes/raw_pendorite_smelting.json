@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "experience": 0.9,
-  "cookingtime": 200,
-  "ingredient": {
-    "item": "orderofobsidian:raw_pendorite"
-  },
-  "result": "orderofobsidian:pendorite_ingot"
-}

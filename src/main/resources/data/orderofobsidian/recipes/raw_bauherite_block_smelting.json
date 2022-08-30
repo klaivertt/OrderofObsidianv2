@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "experience": 9.9,
-  "cookingtime": 2475,
-  "ingredient": {
-    "item": "orderofobsidian:raw_bauherite_block"
-  },
-  "result": "orderofobsidian:bauherite_block"
-}

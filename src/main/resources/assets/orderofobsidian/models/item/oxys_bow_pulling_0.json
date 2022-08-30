@@ -1,6 +1,0 @@
-{
-  "parent": "orderofobsidian:item/oxys_bow",
-  "textures": {
-    "layer0": "orderofobsidian:item/oxys_bow_pulling_0"
-  }
-}

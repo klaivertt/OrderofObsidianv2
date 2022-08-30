@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "orderofobsidian:block/deepslate_bauherite_ore",
-    "particle": "orderofobsidian:block/deepslate_bauherite_ore"
-  }
-}
