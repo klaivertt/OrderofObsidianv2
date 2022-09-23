@@ -11,7 +11,7 @@ out
 *.ipr
 *.iws
 *.iml
-../../project 1.19/orderofobsidian 1.19/.idea
+.idea
 
 # gradle
 build
