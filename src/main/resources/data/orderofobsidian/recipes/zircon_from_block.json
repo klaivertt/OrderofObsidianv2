@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "orderofobsidian:zircon_block"
+    }
+  ],
+  "result": {
+    "item": "orderofobsidian:zircon",
+    "count": 9
+  }
+}
