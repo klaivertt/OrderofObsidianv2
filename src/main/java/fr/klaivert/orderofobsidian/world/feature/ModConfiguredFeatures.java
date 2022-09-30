@@ -82,7 +82,7 @@ public class ModConfiguredFeatures {
     public static final RegistryObject<ConfiguredFeature<?, ?>> NETHERACK_PENDORITE_ORE = CONFIGURED_FEATURES.register("netherack_pendorite_ore",
             () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(NETHER_PENDORITE_ORES.get(), 4)));
 
-    public static final RegistryObject<ConfiguredFeature<?, ?>> AIKIGITE_ORE = CONFIGURED_FEATURES.register("aikigite_ore",
+    public static final RegistryObject<ConfiguredFeature<?, ?>> AIKIGITE_ORE = CONFIGURED_FEATURES.register("aikigite_ore.json",
             () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_AIKIGITE_ORES.get(),5)));
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> ALUMINIUM_ORE = CONFIGURED_FEATURES.register("aluminium_ore",
